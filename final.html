@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE LUCRO</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>    
+    
+    <div class="calculadora-de-lucro">
+        <h2>CALCULADORA DE LUCRO</h2>
+        <div class="popup-container">
+            <div class="popup-dias">                
+            </div>
+            <div class="popup-acumulativo">                
+            </div>
+            <button class="fechar-popup">Fechar</button>
+            
+        </div>
+        <div class="semana">
+            <input type="number" placeholder="lucro da semana" class="lucro-da-semana">     
+            <button class="calcular-lucro-semana">somar</button>   
+            <button class="abrir-popup">abrir</button>
+            
+        </div>
+                    
+        <div class="lucro-input">         
+            <select id="custo-input">
+                <option value="2">play</option>
+                <option value="8">uni</option>
+            </select>
+            <input type="number" id="quantidade-input" placeholder="quantidade de creditos">
+            <input type="number" id="preco-input" placeholder="preço vendido">
+            <button id="botao-adicionar">Adicionar</button> 
+        </div>
+        <div class="output-container">            
+            <div class="output-header">
+                <div></div>
+                <div>quantidade</div>
+                <div>custo</div>
+                <div>preço</div>
+                <div>lucro</div>     
+                <div></div>           
+                <div></div>           
+            </div>
+            <div class="output"></div>
+            <div class="dia">
+                <select id="dia-da-semana">
+                    <option value="seg">segunda</option>
+                    <option value="ter">terça</option>
+                    <option value="qua">quarta</option>
+                    <option value="qui">quinta</option>
+                    <option value="sex">sexta</option>
+                    <option value="sab">sábado</option>
+                </select>  
+                <input type="number" placeholder="lucro do dia" class="lucro-do-dia">   
+            </div> 
+        </div>
+        <img  class="logo-play" src="https://i.pinimg.com/564x/c1/2c/d2/c12cd27da395b22ca8aba06d1bac07ce.jpg">
+    </div>        
+    <script src="final.js"></script>
+</body>
+</html>
