@@ -17,11 +17,7 @@ body {
  left: 0; 
 }
 
-@media (max-width: 768px) {
-  
-.calculadora-de-lucro h2 {
- color:white;
-}
+
 
 
 .output-container {
