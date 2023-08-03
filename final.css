@@ -5,7 +5,8 @@ body {
  margin: 0;
  background-image: url("https://i.pinimg.com/564x/b6/c7/6d/b6c76d29c31129ff5d32723bf442bdfa.jpg");    
  background-size: 100vw;
- background-attachment: fixed;                            
+ background-attachment: fixed;     
+ min-zoom: 1;
 }
 
 .calculadora-de-lucro {
